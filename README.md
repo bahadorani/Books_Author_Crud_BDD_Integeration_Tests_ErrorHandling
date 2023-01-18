@@ -1,4 +1,4 @@
-# Books_Authour_Crud_BDD_Integeration_Tests_ErrorHandling
+# Books_Author_Crud_BDD_Integeration_Tests_ErrorHandling
 
 This sample project is about books and authors.
 ّّFor DDD, I use value objects For book titles, author names, And Prices of books.
