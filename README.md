@@ -6,8 +6,11 @@ Layering has been done in the project
 This project includes error handling.
 
 Two categories of tests were used in this sample
+
      1. BDD specflow for acceptance tests
+     
      2. Xunit for integration tests
+     
     
 the scenario is in Gerkin, it is used for Book operations that are true or have exceptions.
     
