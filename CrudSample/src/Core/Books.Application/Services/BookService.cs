@@ -34,9 +34,12 @@ namespace Books.Application.Services
 
                 return new(convert(model));
             }
-            catch
+            catch(Exception ex)
             {
-                return new((int)ErrorCodes.InvalidBookName);
+                if(ex.Message.Contains(""))
+                   return new((int)ErrorCodes.InvalidBookName);
+
+                return new((int)ErrorCodes.InvalidBookPrice);
             }
         }
 

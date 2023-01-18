@@ -47,5 +47,10 @@ namespace Book.ClientSdk
         /// Author was not created in database
         /// </summary>
         AuthorWasNotCreatedInDatabase = 206,
+
+        /// <summary>
+        /// Price of Book is incorrect
+        /// </summary>
+        InvalidBookPrice = 207,
     }
 }

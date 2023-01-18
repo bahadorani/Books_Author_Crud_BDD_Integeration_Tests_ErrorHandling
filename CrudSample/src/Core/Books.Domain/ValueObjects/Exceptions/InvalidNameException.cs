@@ -17,8 +17,8 @@ namespace Books.Domain.ValueObjects.Exceptions
         {
         }
 
-        protected InvalidNameException(SerializationInfo info, StreamingContext context) : base(info, context)
-        {
-        }
+        //public InvalidNameException(SerializationInfo info, StreamingContext context) : base(info, context)
+        //{
+        //}
     }
 }

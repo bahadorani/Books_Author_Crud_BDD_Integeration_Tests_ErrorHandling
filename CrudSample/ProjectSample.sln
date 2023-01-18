@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Books.Application", "src\Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Books.Repository", "src\Core\Books.Repository\Books.Repository.csproj", "{0BE5A122-AFE5-41C7-8761-86E1BCBBFFF3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Book.IntegerationTest", "tests\Book.IntegerationTest\Book.IntegerationTest.csproj", "{9681E4AB-D3CD-417D-AB32-26CE154BE585}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -59,6 +61,10 @@ Global
 		{0BE5A122-AFE5-41C7-8761-86E1BCBBFFF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0BE5A122-AFE5-41C7-8761-86E1BCBBFFF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0BE5A122-AFE5-41C7-8761-86E1BCBBFFF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9681E4AB-D3CD-417D-AB32-26CE154BE585}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9681E4AB-D3CD-417D-AB32-26CE154BE585}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9681E4AB-D3CD-417D-AB32-26CE154BE585}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9681E4AB-D3CD-417D-AB32-26CE154BE585}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -73,6 +79,7 @@ Global
 		{ADDE7840-8CF0-46E8-9006-63BD3967965F} = {AC2BD261-2CF1-4D3F-9CE1-099164D48D60}
 		{444AC86A-2A55-4D72-9EF9-D9DA910E847E} = {2D7513AB-9DF5-489D-BC28-5D9802746343}
 		{0BE5A122-AFE5-41C7-8761-86E1BCBBFFF3} = {2D7513AB-9DF5-489D-BC28-5D9802746343}
+		{9681E4AB-D3CD-417D-AB32-26CE154BE585} = {0E40F68A-621D-434F-A2CD-F8E63914E1BD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2B50F326-7AE4-48C1-B0CB-449E1451150B}
