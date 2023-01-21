@@ -7,11 +7,11 @@ This project includes error handling.
 
 Two categories of tests were used in this sample
 
-     1. BDD specflow for acceptance tests
+     1. BDD, specflow and driver pattern for acceptance tests
      
      2. Xunit for integration tests
      
     
-the scenario is in Gerkin, it is used for Book operations that are true or have exceptions.
+The scenario is in Gherkin, it is used for Book operations that are true or have exceptions.
     
 ![image](https://user-images.githubusercontent.com/11363979/213168735-693cb66f-8a59-45a7-a8df-31a23b2fd5e8.png)
